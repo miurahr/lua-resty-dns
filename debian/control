@@ -1,0 +1,14 @@
+Source: lua-resty-dns
+Section: interpreters
+Priority: optional
+Maintainer: Bearnard Hibbins <bearnard@gmail.com>
+Build-Depends: debhelper (>= 5)
+Standards-Version: 3.8.2
+Homepage: http://agentzh.org
+Vcs-Git: git://github.com/agentzh/lua-resty-dns.git
+Vcs-Browser: https://github.com/agentzh/lua-resty-dns
+
+Package: liblua5.1-resty-dns
+Architecture: all
+Depends: ${shlibs:Depends}
+Description: Lua DNS resolver for the ngx_lua based on the cosocket API
